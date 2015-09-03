@@ -256,7 +256,7 @@ int _radosAuthPermChecks( char* pool, char* user, char* key, char* monips ) {
     // Write test object synchronously
     const char *object_name = uuid;
     const char *object_desc = "rados_connect test object";
-    err = rados_write(io, object_name, object_desc, 14, 0);
+    err = rados_write(io, object_name, object_desc, 25, 0);
     if (err < 0) {
         fprintf(stderr, "\tBAD: Cannot write object [%s] to pool [%s]: [%s]\n", object_name, pool, strerror(-err));
         rados_ioctx_destroy(io);

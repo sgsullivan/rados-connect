@@ -305,11 +305,11 @@ cleanup:
 void _usage() {
     printf("\nUSAGE: ./rados_connect [OPTIONS]\n \
 \nNOTE: All switches below are _required_ unless stated optional.\n \
-\t-m -- MONS            (ex: -m10.30.177.4:6789,10.30.177.5:6789,10.30.177.6:6789)\n \
-\t-u -- CEPHX_USER        (ex: -umycephxuser)\n \
-\t-p -- CEPH_POOL         (ex: -ppool0)\n \
-\t-k -- CEPHX_KEY [optional]       (ex: -kAQDJ+gtScGVSBRAA0QenPqsxWaml1jr9C1647w==)\n \
-\t-l -- LIBVIR_UUID [optional]    (ex: -l04a8f230-1bd0-4536-a101-3bbd6253ce5c)\n \
+\t-m -- MONS			(ex: -m10.30.177.4:6789,10.30.177.5:6789,10.30.177.6:6789)\n \
+\t-u -- CEPHX_USER		(ex: -umycephxuser)\n \
+\t-p -- CEPH_POOL		(ex: -ppool0)\n \
+\t-k -- CEPHX_KEY [optional]	(ex: -kAQDJ+gtScGVSBRAA0QenPqsxWaml1jr9C1647w==)\n \
+\t-l -- LIBVIR_UUID [optional]	(ex: -l04a8f230-1bd0-4536-a101-3bbd6253ce5c)\n \
 \n*** Options -l and -k are optional, however at least one _must_ be defined.\n \
 \n");
 }

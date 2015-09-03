@@ -1,4 +1,7 @@
 # ceph-rados-connect
+
+http://ssullivan.org/projects/rados-connect
+
 Verify connectivity to a given Ceph cluster via specified cephx user/pass.
 This is useful for example, if you want to verify you have proper access
 setup before you ever even try something like:

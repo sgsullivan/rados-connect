@@ -269,7 +269,7 @@ int _radosAuthPermChecks( char* pool, char* user, char* key, char* monips ) {
     
     // Read test object
     char read_object_buf[128];
-    err = rados_read(io, object_name, read_object_buf, 14, 0);
+    err = rados_read(io, object_name, read_object_buf, 25, 0);
     if (err < 0) {
         fprintf(stderr, "BAD: Cannot read object [%s] [%s]\n", object_name, strerror(-err));
         rados_ioctx_destroy(io);
